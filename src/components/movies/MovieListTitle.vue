@@ -47,29 +47,29 @@ export default {
   font-weight: 600;
 }
 
-.board_list .movieCd {
+.movieCd {
   width: 10%;
 }
-.board_list .movieNm {
+.movieNm {
   width: 30%;
   text-align: left;
 }
-.board_list .prdtYear {
+.prdtYear {
   width: 10%;
 }
-.board_list .openDt {
+.openDt {
   width: 10%;
 }
-.board_list .typeNm {
+.typeNm {
   width: 10%;
 }
-.board_list .prdtStatNm {
+.prdtStatNm {
   width: 10%;
 }
-.board_list .repNationNm {
+.repNationNm {
   width: 10%;
 }
-.board_list .repGenreNm {
+.repGenreNm {
   width: 10%;
 }
 </style>
