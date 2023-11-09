@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SelectMovies</title>
     <link rel="stylesheet" type="text/css" href="src/assets/movie.css">
+    <link rel="stylesheet" type="text/css" href="src/assets/page.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <!--    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>-->
 <!--    <script src="https://unpkg.com/vue@3/dist/vue.esm-bundler.js"></script>-->
@@ -32,17 +33,17 @@
                 <movie-item></movie-item>
             </div>
 
-<!--            <div class="board_page">-->
-<!--                <div class="bt prev" id="prev_page">이전</div>-->
+            <div id="board_page_main" class="board_page">
+                <page-prev-item></page-prev-item>
 <!--                <div class="number-button-wrapper">-->
 <!--                    <script type="module" src="assets/js/page.js"></script>-->
 <!--                </div>-->
-<!--                <div class="bt next" id="next_page">다음</div>-->
-<!--            </div>-->
-<!--            <div class="bt_wrap">-->
-<!--                <a href="#" class="on">목록</a>-->
-<!--                &lt;!&ndash; <a href="#">수정</a> &ndash;&gt;-->
-<!--            </div>-->
+                <page-next-item></page-next-item>
+            </div>
+            <div class="bt_wrap">
+                <a href="#" class="on">목록</a>
+                <!-- <a href="#">수정</a> -->
+            </div>
         </div>
     </div>
 
