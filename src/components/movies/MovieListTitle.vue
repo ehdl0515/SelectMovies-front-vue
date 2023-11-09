@@ -1,7 +1,4 @@
-<script>
-export default {
-  name: "MovieListTitleComponent",
-}
+<script setup>
 </script>
 
 <template>
