@@ -25,7 +25,7 @@
 <!--            <div id="app" class="board_list">-->
 <!--                <router-view></router-view>-->
 <!--                <router-link to="/movie-list-title"></router-link>-->
-                <movie-list-title-component></movie-list-title-component>
+                <movie-list-title></movie-list-title>
             </div>
             <div id="board_list_content" class="board_list">
 <!--            <div id="app" class="board_list">-->
@@ -35,9 +35,10 @@
 
             <div id="board_page_main" class="board_page">
                 <page-prev-item></page-prev-item>
-<!--                <div class="number-button-wrapper">-->
+                <div id="number-button-wrapper" class="number-button-wrapper">
+                    <page-number-item></page-number-item>
 <!--                    <script type="module" src="assets/js/page.js"></script>-->
-<!--                </div>-->
+                </div>
                 <page-next-item></page-next-item>
             </div>
             <div class="bt_wrap">
