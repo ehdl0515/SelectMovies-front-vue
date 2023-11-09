@@ -13,7 +13,7 @@
 
 <script setup>
 import {ref} from "vue";
-import {GetMoviesAllWithPage} from "@/movies_api";
+import {GetMoviesAllWithPage} from "@/movie_api";
 
 const movies = ref([]);
 
