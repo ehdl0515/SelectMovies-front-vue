@@ -2,11 +2,8 @@
 import { createApp } from 'vue/dist/vue.esm-bundler';
 import MovieListTitle from './components/movies/MovieListTitle.vue';
 import MovieItem from './components/movies/MovieItem.vue';
-import PagePrevItem from './components/page/PagePrevItem.vue';
-import PageNextItem from './components/page/PageNextItem.vue';
 import router from './router.js';
-import PageNumberItem from "@/components/page/PageNumberItem.vue";
-
+import MainPage from "@/components/page/MainPage.vue";
 
 // app.use(router);
 // app.mount('#app');
@@ -24,11 +21,6 @@ app2.mount('#board_list_content');
 
 const app3 = createApp({
 });
-app3.component('PagePrevItem', PagePrevItem);
-app3.component('PageNextItem', PageNextItem);
+app3.component('MainPage', MainPage);
 app3.mount('#board_page_main');
 
-const app4 = createApp({
-});
-app4.component('PageNumberItem', PageNumberItem);
-app4.mount('#number-button-wrapper');
