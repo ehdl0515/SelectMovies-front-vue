@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SelectMovies</title>
+    <link rel="stylesheet" type="text/css" href="src/assets/basic.css">
     <link rel="stylesheet" type="text/css" href="src/assets/movie.css">
     <link rel="stylesheet" type="text/css" href="src/assets/page.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -22,29 +23,21 @@
         </div>
         <div class="board_list_wrap">
             <div id="board_list_main" class="board_list">
-<!--            <div id="app" class="board_list">-->
-<!--                <router-view></router-view>-->
-<!--                <router-link to="/movie-list-title"></router-link>-->
                 <movie-list-title></movie-list-title>
             </div>
             <div id="board_list_content" class="board_list">
-<!--            <div id="app" class="board_list">-->
-<!--                <router-link to="/movie-item"></router-link>-->
                 <movie-item></movie-item>
             </div>
-
+        </div>
+        <div class="board_page_wrap">
             <div id="board_page_main" class="board_page">
-                <page-prev-item></page-prev-item>
-                <div id="number-button-wrapper" class="number-button-wrapper">
-                    <page-number-item></page-number-item>
-<!--                    <script type="module" src="assets/js/page.js"></script>-->
-                </div>
-                <page-next-item></page-next-item>
+                <main-page></main-page>
             </div>
-            <div class="bt_wrap">
-                <a href="#" class="on">목록</a>
-                <!-- <a href="#">수정</a> -->
-            </div>
+
+<!--            <div class="bt_wrap">-->
+<!--                <a href="#" class="on">목록</a>-->
+<!--                &lt;!&ndash; <a href="#">수정</a> &ndash;&gt;-->
+<!--            </div>-->
         </div>
     </div>
 
