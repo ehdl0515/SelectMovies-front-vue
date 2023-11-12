@@ -1,41 +1,5 @@
+
+/* 전체 페이지 컨테이너 스타일 */
 .board_page {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 0;
-}
-
-.board_page div {
-    display: inline-block;
-    width: 220px;
-    height: 32px;
-    box-sizing: border-box;
-    vertical-align: middle;
-    border: 1px solid #dddddd;
-    line-height: 100%;
-}
-
-
-.board_page div.number-button-wrapper {
-    padding-top: 10px;
-    font-size: 1.2rem;
-    letter-spacing: -1px;
-}
-
-.board_page span.number-button {
-    margin: 5px;
-    padding: 3px 5px;
-    /*padding-top: 2px;*/
-    /*padding-bottom: 2px;*/
-    font-size: 1.4rem;
-    cursor: pointer;
-}
-.board_page span.number-button.active {
-    margin: 5px;
-    padding: 3px 5px;
-    /*padding-top: 2px;*/
-    /*padding-bottom: 2px;*/
-    font-size: 1.4rem;
-    border-color: orange;
-    background: orange;
-    color: #FFFFFF;
+    padding: 20px;
 }
